@@ -38,6 +38,13 @@
       echo "<br>";
 
       echo "<table border = '5px'>";
+      echo "<tr>";
+      echo "<th>Employee ID</th>";
+      echo "<th>Employee Name</th>";
+      echo "<th>Designation</th>";
+      echo "<th>Salary</th>";
+      echo "<th>Martial Status</th>";
+      echo "</tr>";
       foreach ($array as $row) {
         echo "<tr>";
         foreach ($row as $col) {
